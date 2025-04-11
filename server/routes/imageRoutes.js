@@ -7,4 +7,5 @@ const imageRouter = express.Router();
 // ✅ Correct route path
 imageRouter.post('/generate-image', authUser, generateImage);
 
+
 export default imageRouter;
