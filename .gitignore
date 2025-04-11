@@ -1,0 +1,31 @@
+# === Node ===
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Logs ===
+logs
+*.log
+
+# === Build Output ===
+dist/
+build/
+
+# === OS Generated ===
+.DS_Store
+Thumbs.db
+
+# === IDE/Editor ===
+.vscode/
+.idea/
+
+# === React (Client) ===
+/client/node_modules/
+/client/.env
+/client/build
+
+# === Express (Server) ===
+/server/node_modules/
+/server/.env
